@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+.header {
+    display: flex;
+
+}
+
+.logo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orange;
+}
+
+#recipes {
+   color: darkorange; 
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+a {
+    
+    text-decoration: none;
+    color: black;
+}
+
+#menu{
+    display: flex;
+
+}
+
+#menu div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div > img{
+    width:150px;
+}
+
+#braised-rice {
+    width:230px;
+}
+
+#spaghetti{
+   width:220px; 
+}
+
+#jollof {
+    width:190px;
+}
