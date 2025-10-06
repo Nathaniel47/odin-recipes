@@ -7,27 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="glass-card">
     <div class="header">
         <div>
             <h1 class="logo" >Odin<span id="recipes">Recipes</span></h1>
         </div>
         <nav>
              <ul>
-                <li><a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer">Menu</a></li>
-                <li><a href="" target="_blank" rel="noopener noreferrer">About</a></li>
+                <li><a href="#" target="_blank" rel="noopener noreferrer">HOME</a></li>
+                <li><a href="#menu" rel="noopener noreferrer">MENU</a></li>
+                <li><a href=""  rel="noopener noreferrer">ABOUT</a></li>
              </ul>
         </nav>
 
     </div>
     
    
+    <div class="hero">
+        <div class="heroText">
+            <h1>Delicious Food Is Waiting For You</h1>
+            <p>We bring the expertise of registered nurses and skilled healthcare providers right to your doorstep, ensuring comfort, dignity, and quality care in the place you feel most at home.</p>
+            <div class="ctaButtons">
+                <button value="Food Menu">Food Menu</button>
+                <button value="Book a Table"> Book a Table</button>
+            </div>
+        </div>
+        <div class="heroImage"><img src="./img/heroImage.png" alt=""></div>
+    </div>
+
+    <div class="menuTitle">
+        <h1>Top List</h1>
+        <p>Our mainstay menu</p>
+    </div>
+
     <div id="menu">
         <div >
            <a href="./recipes/braised-rice.html" target="_blank" rel="noopener noreferrer">
-            <img id="braised-rice" src="./img/braised-rice-removebg-preview.png" alt="Braised-rice">
-           <h3>Braised Rice</h3>
-           <p>Braised rice with hot pepper and fried eggs</p></a>
+            <img id="assortedFried" src="./img/assorted.png" alt="Assorted Fried Rice">
+           <h3>Assorted Fried Rice</h3>
+           <p>Fried rice with meat chops and vegs</p></a>
         </div>
 
         <div >
@@ -40,21 +58,36 @@
 
         <div>
             <a href="./recipes/one-pot-spaghetti.html" target="_blank" rel="noopener noreferrer">
-               <img id="spaghetti"   src="./img/one-pot-spaghetti-removebg-preview (1).png" alt="One-pot spaghetti">
+            <img id="spaghetti"   src="./img/one-pot-spaghetti-removebg-preview (1).png" alt="One-pot spaghetti">
             <h3>One-pot Spaghetti</h3>
-            <p>One-pot spaghetti with tomato sauce and vegetables</p> 
+            <p>Spaghetti with tomato sauce and vegs</p> 
             </a>
         </div>
 
         <div>
             <a href="./recipes/riceball.html" target="_blank" rel="noopener noreferrer">
-             <img src="./img/riceball-rmbg-removebg-preview.png" alt="Riceball and Groundnut soup">
-            <h3>Riceball and Groundnut soup</h3>
-            <p>Riceball and Groundnut soup with meat.</p>   
+             <img id="riceball" src="./img/riceball-rmbg-removebg-preview.png" alt="Riceball and Groundnut soup">
+            <h3>Riceball & soup</h3>
+            <p>Riceball and Groundnut soup with meat</p>   
             </a>
         </div>
     </div>
 
-    
+    <div class="fries">
+        <div class="friesImage">
+            <img src="./img/fries.png" alt="Fried Potatoes">
+        </div>
+        <div class="friesText">
+            <h2>Best Potatoes For French Fries</h2>
+            <p>Russet potatoes are ideal. Since the're dense, they don't contain as much water inside, which allows them to get extra crispy</p>
+        </div>
+        <form  class="contactForm" action="">
+            <input type="text" name="name" id="name" value="Name">
+            <input type="text" name="email" id="email" value="Email">
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+</div>    
 </body>
 </html>
